@@ -201,8 +201,8 @@ nav ul li a:hover {
 }
 
 .animetext-shadow {
-    color: #00cadb;
-    text-shadow: #8ff2ff 3px 4px 0px;
+    color: #02dae2;
+    text-shadow: #ffffff 3px 4px 0px;
 }
 
 @media (max-width: 650px) {
