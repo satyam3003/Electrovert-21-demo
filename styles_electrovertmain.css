@@ -193,13 +193,16 @@ nav ul li a:hover {
 }
 
 .text-animation-head {
+    text-align: center;
+    position: relative;
     color: #ffffff;
-    margin: 35vh 10px;
+    /*margin: 35vh 10px;*/
+    top: 40%;
 }
 
 .animetext-shadow {
-    color: #ffffff;
-    text-shadow: #004a7b 3px 3px 2px;
+    color: #00cadb;
+    text-shadow: #8ff2ff 3px 4px 0px;
 }
 
 @media (max-width: 650px) {
@@ -225,7 +228,7 @@ nav ul li a:hover {
 
 .maincontainer {
     height: 100vh;
-    background-image: url("firstpage_images/topmostimg.jpg");
+    background-image: url("firstpage_images/sample6.gif");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -302,7 +305,7 @@ nav ul li a:hover {
 
 }
 
-.event_main_div{
+.event_main_div {
     padding: 80px 20px;
     background-color: #00000078;
 }
@@ -369,12 +372,12 @@ nav ul li a:hover {
     color: white;
 }
 
-.event_gradient-1{
+.event_gradient-1 {
     background-image: linear-gradient(to bottom left, #00c4cccc, #07235fd9);
     transition: background-image 1s;
 }
 
-.event_gradient-1:hover{
+.event_gradient-1:hover {
     background-image: linear-gradient(to bottom left, #00c4cc, #07235f);
 }
 
@@ -388,12 +391,12 @@ nav ul li a:hover {
     color: white;
 }
 
-.event_gradient-2{
+.event_gradient-2 {
     background-image: linear-gradient(to bottom left, #b64100d1, #ffe500e8);
     transition: background-image 1s;
 }
 
-.event_gradient-2:hover{
+.event_gradient-2:hover {
     background-image: linear-gradient(to bottom left, #b64100, #ffe500);
 }
 
@@ -407,13 +410,13 @@ nav ul li a:hover {
     color: white;
 }
 
-.event_gradient-3{
+.event_gradient-3 {
     background-image: linear-gradient(to bottom left, #600000c2, #f80000d1);
     transition: background-image 1s;
 }
 
-.event_gradient-3:hover{
-    background-image: linear-gradient(to bottom left, #600000,#f80000);
+.event_gradient-3:hover {
+    background-image: linear-gradient(to bottom left, #600000, #f80000);
 }
 
 /*card 4*/
@@ -426,12 +429,12 @@ nav ul li a:hover {
     color: white;
 }
 
-.event_gradient-4{
+.event_gradient-4 {
     background-image: linear-gradient(to bottom left, #10cde1c7, #ff00b8db);
     transition: background-image 1s;
 }
 
-.event_gradient-4:hover{
+.event_gradient-4:hover {
     background-image: linear-gradient(to bottom left, #10cde1, #ff00b8);
 }
 
@@ -445,12 +448,12 @@ nav ul li a:hover {
     color: white;
 }
 
-.event_gradient-5{
+.event_gradient-5 {
     background-image: linear-gradient(to bottom left, #047ac6b0, #00ff0adb);
     transition: background-image 1s;
 }
 
-.event_gradient-5:hover{
+.event_gradient-5:hover {
     background-image: linear-gradient(to bottom left, #047ac6, #00ff0a);
 }
 
@@ -464,11 +467,11 @@ nav ul li a:hover {
     color: white;
 }
 
-.event_gradient-6{
+.event_gradient-6 {
     background-image: linear-gradient(to bottom left, #cb6ce6cf, #ff8300c4);
     transition: background-image 1s;
 }
 
-.event_gradient-6:hover{
+.event_gradient-6:hover {
     background-image: linear-gradient(to bottom left, #cb6ce6, #ff8300);
 }
