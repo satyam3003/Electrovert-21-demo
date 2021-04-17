@@ -1,3 +1,9 @@
+var preloader = document.getElementById('loading');
+
+function loader() {
+    preloader.style.display = 'none';
+}
+
 
 $('.top_icon_home').on("click", function () {
     $(".coding_structure_a_r").removeClass("coding_structure_on").addClass("coding_structure_none");

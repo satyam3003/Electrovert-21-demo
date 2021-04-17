@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="navbar_electrovert.css">
     <link rel="stylesheet" href="fespecial_style.css">
+    <link rel="stylesheet" href="aos.css">
     <link rel="icon" type="image/png" sizes="32x32" href="elesalogo.png">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- Bootstrap CSS -->
@@ -14,7 +15,17 @@
 
     <title>FESpecial | ELECTROVERT'21</title>
 </head>
-<body>
+<body  class="bodyy" onload="loader()">
+
+<div id="loading"></div>
+
+<script>
+    var preloader = document.getElementById('loading');
+
+    function loader() {
+        preloader.style.display = 'none';
+    }
+</script>
 <!-- navbar -->
 <nav>
     <input type="checkbox" id="check">
@@ -29,10 +40,10 @@
             <a href="http://elesa.co.in/">HOME</a>
         </li>
         <li>
-            <a href="http://elesa.co.in/about%20us.html">About</a>
+            <a href="index.html#about">ABOUT</a>
         </li>
         <li>
-            <a href="#foot">Contacts</a>
+            <a href="index.html#event_list">EVENTS</a>
         </li>
     </ul>
 </nav>
@@ -52,7 +63,7 @@
 
                 <!--coding home-->
 
-                <div class=" coding_home_a_r coding_home_on">
+                <div  data-aos="fade-left" data-aos-duration="1500" class=" coding_home_a_r coding_home_on">
                     <h5><i class="fas fa-home fa-3x active_body_logo"></i></h5>
                     <h2>FESpecial</h2>
                     <h4><em><b>Tagline.... tagline.... Tagline...... </b></em></h4>
@@ -76,7 +87,7 @@
                         </h5>
                     </div>
                     <button class="button_blue lower_button">Register Now!</button>
-                    <button class="button_blue lower_button goto_structures">Read More...</button>
+                    <button class="button_blue lower_button goto_structures">Structure</button>
                 </div>
             </div>
 
@@ -104,7 +115,7 @@
                         consectetur.
                     </h5>
                 </div>
-                <button class="button_blue lower_button goto_problem">Read More...</button>
+                <button class="button_blue lower_button goto_problem">Problem Statement</button>
             </div>
 
             <!--   Problem Statement-->
@@ -131,7 +142,7 @@
                         consectetur.
                     </h5>
                 </div>
-                <button class="button_blue lower_button goto_contact">Read More...</button>
+                <button class="button_blue lower_button goto_contact">Contact</button>
             </div>
 
             <!--  CONTACT-->
