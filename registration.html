@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!---<title> Responsive Registration Form | CodingLab </title>--->
+    <link rel="stylesheet" href="registration.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <title>Registration</title>
+  <body>
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your name" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" placeholder="Enter your email" required />
+            </div>
+            <div class="input-box drop">
+              <span class="details">Degree</span>
+              <select name="degree" id="degree">
+                <option value="volvo">Degree</option>
+                <option value="saab">Diploma</option>
+              </select>
+            </div>
+
+            <div class="input-box drop">
+              <span class="details">Branch</span>
+              <select name="branch" id="branch">
+                <option value="volvo">CSE</option>
+                <option value="saab">IT</option>
+                <option value="mercedes">ECE</option>
+                <option value="audi">EE</option>
+                <option value="audi">ME</option>
+                <option value="audi">Civil</option>
+              </select>
+            </div>
+
+            <div class="input-box drop">
+              <span class="details">Year</span>
+              <select name="year" id="year">
+                <option value="volvo">1st</option>
+                <option value="saab">2nd</option>
+                <option value="mercedes">3rd</option>
+                <option value="audi">4th</option>
+              </select>
+            </div>
+
+            <div class="input-box">
+              <span class="details">College</span>
+              <input
+                type="text"
+                placeholder="Enter your college name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input
+                type="text"
+                placeholder="Enter your phone number"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Transction</span>
+              <input type="text" placeholder="Enter transction id" required />
+            </div>
+            <div class="input-box">
+              <span class="details">Referral Code</span>
+              <input
+                type="text"
+                placeholder="Enter your referral code"
+                required
+              />
+            </div>
+            <!-- event -->
+
+          <div class="input-box drop">
+            <span class="details">Event</span>
+            <select name="event" id="event">
+              <option value="Coding">Coding</option>
+              <option value="Tecnical">Tecnical</option>
+              <option value="Presentation">Presentation</option>
+              <option value="Business">Business Management</option>
+              <option value="FE">FE Specialt</option>
+              <option value="Mystrey">Mystrey Event</option>
+            </select>
+          </div>
+          </div>
+          
+
+          <div class="button">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
