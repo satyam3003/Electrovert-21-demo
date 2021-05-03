@@ -39,7 +39,7 @@
     position: relative;
     color: #ffffff;
     /*margin: 35vh 10px;*/
-    top: 40%;
+    top: 30%;
 }
 
 .animetext-shadow {
@@ -69,11 +69,35 @@
 
 
 .maincontainer {
+    /*background-image: url("firstpage_images/tryG.gif");*/
+    /*!*background-position: center; !* Center the image *!*!*/
+    /*!*background-repeat: no-repeat; !* Do not repeat the image *!*!*/
+    /*!*background-size: cover; !* Resize the background image to cover the entire container *!*!*/
+
+
+}
+
+.maincontainer {
+	background: linear-gradient(120deg, #00c7ff,#000000, #000000, #00c7ff);
+	background-size: 200% 200%;
+	animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.maincontainer .top_main{
     height: 100vh;
-    background-image: url("firstpage_images/sample6.gif");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    /*background-color: #21252999;*/
 }
 
 /*about section*/
