@@ -139,6 +139,12 @@ nav ul li a:hover {
     }
 }
 
+@media (max-width: 500px) {
+    .logo_elesa{
+    display: none;
+}
+}
+
 .maincontainer {
     padding-top: 75px;
 }
