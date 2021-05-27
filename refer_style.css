@@ -1,0 +1,119 @@
+
+/*end of navbar*/
+
+/*text animation*/
+
+
+@media (max-width: 650px) {
+    .ml10 {
+        position: relative;
+        font-weight: 900;
+        font-size: 2.5rem;
+    }
+
+    .text-animation-head h4 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    .ml10 {
+        position: relative;
+        font-weight: 800;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+.maincontainer {
+	background: linear-gradient(120deg, #00c7ff,#000000, #000000, #00c7ff);
+	background-size: 200% 200%;
+	animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.maincontainer .top_main{
+    height: 100vh;
+    /*background-color: #21252999;*/
+}
+
+/*about section*/
+.about_e21 {
+    background-image: url("sample2.jpg");
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 120px 0;
+    height: 100vh;
+}
+
+.about_e21 .col_1 {
+    text-align: left;
+    padding: 20px 30px;
+}
+
+.about_col {
+    color: white;
+    padding: 10vh 30px;
+}
+
+.about_col h1 {
+    color: #00cadb;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+.about_col p {
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+.youtube {
+    width: 90%;
+    max-height: 50vh;
+    min-height: 40vh;
+}
+
+@media (max-width: 991px) and (min-width: 767px) {
+    .youtube {
+        width: 60%;
+    }
+}
+
+.about_hr {
+    width: 45%;
+    padding: 4px;
+    border: none;
+    color: white;
+}
+
+.about_col_sec_half {
+    padding: 30px;
+    color: white;
+}
+
+.about_col_sec_half h3 {
+    margin-top: 20px;
+    color: #00cadb;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.about_col_sec_half h4 {
+    font-weight: 400;
+}
+
